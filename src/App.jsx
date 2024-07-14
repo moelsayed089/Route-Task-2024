@@ -1,10 +1,11 @@
+import Table from "./components/Table"
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-red-500 font-bold underline">
-        Hello world!
-      </h1>
+     <div className="container mx-auto px-4 mt-10">
+        <Table />
+     </div>
     </>
   )
 }
